@@ -80,6 +80,15 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+
+
+      <header>
+          <div className="container flex_space">
+            <div className="logo">
+              <img src="images/logo.png" alt="" />
+            </div>
+          </div>
+      </header>
     </>
   );
 };

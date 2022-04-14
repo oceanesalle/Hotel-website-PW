@@ -88,6 +88,18 @@ const NavBar = () => {
               <img src="images/logo.png" alt="" />
             </div>
           </div>
+
+          <div className="contact flex_space">
+            <div className="box flex_space">
+              <div className="icons">
+                <i className="fal fa-clock"></i>
+              </div>
+              <div className='text'>
+                <h4>Working Hours</h4>
+                <Link to="/contact">Monday - Sunday : 9.00am to 6.00pm</Link>
+              </div>
+            </div>
+          </div>
       </header>
     </>
   );

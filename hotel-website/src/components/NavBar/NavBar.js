@@ -99,8 +99,32 @@ const NavBar = () => {
                 <Link to="/contact">Monday - Sunday : 9.00am to 6.00pm</Link>
               </div>
             </div>
+
+            <div className="contact flex_space">
+            <div className="box flex_space">
+              <div className="icons">
+                <i className="fas fa-phone-volume"></i>
+              </div>
+              <div className='text'>
+                <h4>Call Us Hours</h4>
+                <Link to="/contact">3257769784763</Link>
+              </div>
+            </div>
+
+            <div className="contact flex_space">
+            <div className="box flex_space">
+              <div className="icons">
+                <i className="faR fa-envelope"></i>
+              </div>
+              <div className='text'>
+                <h4>Mail Us</h4>
+                <Link to="/contact">info@example.com</Link>
+              </div>
+            </div>
           </div>
-      </header>
+          </div>
+          </div>
+          </header>
     </>
   );
 };
